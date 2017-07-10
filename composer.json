@@ -1,0 +1,22 @@
+{
+    "name": "cethyworks/doctrine-paginator-decorator",
+    "license": "MIT",
+    "description": "Decorator/helper for Doctrine Paginator",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=5.6.17",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "authors": [
+        {
+            "name": "Charles-Elie",
+            "email": "charles-elie@cethyworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Cethyworks\\DoctrinePaginatorDecorator\\": "" }
+    }
+}
